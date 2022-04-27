@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    section {
+        &#cards {
+            .container {
+                .row {
+                    .about-card {
+                        border: none;
+                        .card-body {
+                            .card-icon {
+                                width: 4rem;
+                                height: 4rem;
+                                border-radius: .25rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &#pricing {
+            .pricing-card {
+                .plan-btn {
+                    button {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        &#getInTouch {
+            .section-icon {
+                width: 4rem;
+                height: 4rem;
+                margin: 0 auto;
+                border-radius: .25rem;
+            }
+            form {
+                textarea {
+                    height: 10rem;
+                }
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
